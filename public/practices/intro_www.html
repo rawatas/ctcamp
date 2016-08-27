@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Intro_www</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h1>พื้นฐาน WWW</h1>
+        <h3>World Wide Web</h3>
+        <p>คือเครือข่ายเอกสารขนาดใหญ่ที่อยู่สามารถเข้าถึงได้ผ่าน Internet ผ่านทาง Web Browser โดยการกำหนด URL ของที่เราต้องการ</p>
+        <h3>ตัวละครหลักในโลก WWW</h3>
+        <ol>
+            <li>URL</li>
+            <li>Web Browser</li>
+            <li>Web Server</li>
+            <li>Web Page</li>
+        </ol>
+        <h3>URL (Universal Resource Locator)</h3>
+        <p>คือ ที่อยู่ของข้อมูลที่อยู่บนเครือข่าย WWW ไม่ว่าจะเป็นไฟล์ HTML, รูป, เสียงหรือวิดีโอ โดยจะมาในรูปแบบ     
+        </p>
+        <h4>protocol://domainname/path</h4>
+        <p>เช่น</p>
+        <p>
+            ที่อยู่ของ Website มจธ. คือ <strong>https://www2.kmutt.ac.th</strong><br>
+            ที่อยู่ของข้อมูลปริญญาโทใน Website มจธ. คือ <strong>www2.kmutt.ac.th/thai/pro_ungrd</strong>
+        </p>
+        <H3>Web Page</h3>
+        <p>คือไฟล์เอกสารที่ส่วนใหญ่ถูกเขียนขึ้นด้วยภาษา HTML (Hyper Text Markup Language) ที่สามารถเข้าถึงได้ผ่านทางเครือข่าย WWW</p>
+        <h3>Web Browser</h3>
+        <p>คือ Application ที่ใช้ในการเข้าถึงเครือข่าย WWW โดยจะรับ URL แล้วทำการส่ง Request ไปที่ปลายทางนั้น เมื่อได้ Response กลับมา
+           จะนำไฟล์ที่ได้มาแสดงผลให้เราเห็น โดย Web Browser ที่ได้รับความนิยมคือ</p>
+        <ul>
+            <li>Google Chrome</li>
+            <li>Mozilla Firefox</li>
+            <li>Microsoft Edge</li>
+        </ul>
+        <h3>Web Server</h3>
+        <p>คือ Program ที่ใช้ในการ Response ข้อมูลต่าง ๆ ที่มีการ Request มาจากต้นทางไม่ว่าจะเป็น</p>
+        <ul>
+            <li>Web Page</li>
+            <li>ไฟล์รูป</li>
+            <li>ไฟล์เสียง</li>
+            <li>ไฟล์วิดีโอ</li>
+        </ul>
+        <h3>เกิดอะไรขึ้นเมื่อเราเข้า Web</h3>
+        <ol>
+            <li>เปิด Computer</li>
+            <li>เชื่อมต่อ Internet</li>
+            <li>เปิด Web Browser</li>
+            <li>พิมพ์ URL (http://www2.kmutt.ac.th/thai/pro_ungrd) ในช่องใส่ URL แล้วกด Enter</li>
+            <li>Web Browser ส่ง Request ไปยัง Computer ที่มี Domain www2.kmutt.ac.th</li>
+            <li>Computer ที่มี Domain www2kmutt.ac.th ที่ลง Web Server ไว้แกะกล่อง Request มาดู</li>
+            <li>
+                Web Server เจอ URL http://www2.kmutt.ac.th/thai/pro_ungrd แบ่งได้เป็น
+                <ul>
+                    <li>Domain = www2.kmutt.ac.th</li>
+                    <li>Path = /thai/pro_ungrd</li>
+                </ul>
+            </li>
+            <li>Web Server เข้าไปที่ folder /thai/pro_ungrd</li>
+            <li>Web Server Response ไฟล์ index.html กลับมาให้ Computer เรา</li>
+            <li>Web Browser บน Computer ของเรา Render ไฟล์ index.html ที่ได้รับให้เราเห็น</li>
+        </ol>
+    </body>
+</html>
