@@ -48,13 +48,17 @@
         <h3>Basic Git</h3>
         <p>เราสามารถสร้าง Git Project ได้สองวิธีคือ</p>
         <ol>
-            <li>สร้างจาก directory ที่มีอยู่แล้วในเครื่องด้วยคำสั่ง</li>
+            <li>
+                <p>สร้างจาก directory ที่มีอยู่แล้วในเครื่องด้วยคำสั่ง</p>
+            </li>
             <ul>
                 <li><strong>git init</strong> เพื่อทำการสร้างไฟล์สำหรับ Repository</li>
                 <li><strong>git add .</strong> เพื่อเพิ่มทุกไฟล์เข้าสู่ระบบ Repository</li>
                 <li><strong>git commit -m "first commit"</strong> เพื่อทำการ commit ไฟล์ที่ได้ add เข้าสู่ระบบ</li>
             </ul>
-            <li>Clone จาก repository ที่มีอยู่แล้ว คือเรามี Git Repository อยู่บน Server แล้วต้องการ Clone ลงมาที่เครื่องของเรา สามารถทำได้ด้วยคำสั่ง</li>
+            <li>
+                <p>Clone จาก repository ที่มีอยู่แล้ว คือเรามี Git Repository อยู่บน Server แล้วต้องการ Clone ลงมาที่เครื่องของเรา สามารถทำได้ด้วยคำสั่ง</p>
+            </li>
             <ul>
                 <li>git clone [url]</li>
             </ul>
@@ -75,7 +79,7 @@
         </ol>
         <p>โดยไฟล์ที่ถูกแก้ไข แต่ไม่ได้ถูก stage ไว้ด้วยคำสั่ง <strong>git add</strong> จะไม่ถูกนำมา commit หมายความว่าไฟล์จะเปลี่ยนแปลงแค่ใน<strong>เครื่องเราเท่านั้น</strong></p>
         <p>ข้อความที่ใส่ในการ commit ควรบ่งบอกถึงจุดประสงค์ที่เกิดการแก้ไข ชัดเจน กระชับ เพื่อให้ผู้อื่นที่ร่วมงานสามารถเข้าใจได้ง่าย</p>
-        <p>เมื่อทำการแก้ไขไฟล์ในเครื่องเรา แล้วทำการ <strong>git add</strong> และ <strong>git commit</strong> เรียบร้อยก็ถึงเวลาที่เราจะทำการอัพไฟล์ไปยังต้นฉบับที่อยู่บน Server หรือเรียกอีกอย่างว่า <strong>Remote Repository</strong> ซึ่งเราสามารถตรวจสอบว่ามี <br>
+        <p>เมื่อทำการแก้ไขไฟล์ในเครื่องเรา แล้วทำการ <strong>git add</strong> และ <strong>git commit</strong> เรียบร้อยก็ถึงเวลาที่เราจะทำการอัพไฟล์ไปยังต้นฉบับที่อยู่บน Server หรือเรียกอีกอย่างว่า <strong>Remote Repository</strong> ซึ่งเราสามารถตรวจสอบว่ามี
             Remote Repository ใดบ้างที่ผูกอยู่กับ Repository ด้วยคำสั่ง
         </p>
         <ol>
