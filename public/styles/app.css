@@ -1,0 +1,16 @@
+h3 {
+    color: green;
+    font-size: 100px;
+}
+
+h2 {
+    color: blue;
+}
+
+.small {
+    font-size: 10px;
+}
+
+#external {
+    font-size: 12px;
+}

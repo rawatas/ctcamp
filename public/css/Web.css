@@ -1,0 +1,336 @@
+.menu {
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: RGB(255, 255, 255);
+    height: 81px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 107px;
+    padding-right: 107px;
+    box-sizing: border-box;
+}
+
+.menu > div > .iconimage {
+    display: inline;
+    padding-right: 33px;
+}
+
+.menu > div > .Star {
+    display: inline;
+    padding-bottom: 7px;
+}
+
+.menu > .Menubar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barbutton {
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    border-width: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.1em;
+    background-color: RGB(255, 255, 255);
+    color: #6E4D9B;
+}
+
+.menu > .Menubar > .divlink > .DocHubinmeun {
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: RGBA(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 1.1em;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: RGBA(0, 0, 0, 0.1);
+}
+
+.menu > .Menubar > .divlink > .Bloginmenu {
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: RGBA(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.SectionTop {
+    background-color: #E82887;
+    padding-top: 81px;
+}
+
+.SectionTop > div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: space-between;
+}
+
+.SectionTop > div > .TextSectionTop {
+    position: relative;
+    font-family: inherit;
+    padding: 15px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+}
+
+.SectionTop > div > .buttonSectionTop {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 163px;
+    height: 44px;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    color: #E82887;
+    background-color: RGB(255, 255, 255);
+    border-radius: 3px;
+}
+
+.SectionVDO {
+    background-image: linear-gradient(to top, #6E4D9B, #E82887);
+    height: 657px;
+}
+
+.SectionVDO > div {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.SectionVDO > div > img {
+    width: 1170;
+    height: 657;
+}
+
+.SectionVODNote {
+    background-color: #6E4D9B
+}
+
+.SectionVODNote > div {
+    margin-left: 90px;
+    margin-right: 90px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    ;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    text-align: center;
+}
+
+.HeadSectionFeature {
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+.HeadSectionFeature > div {
+    display: flex;
+    flex-flow: column;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+}
+
+.HeadSectionFeature > div > .head {
+    font-style: normal;
+    font-family: inherit;
+    text-align: center;
+    color: #3D3D3D;
+    font-size: 2.1em;
+    line-height: 1.1em;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    margin-bottom: 17px;
+}
+
+.HeadSectionFeature > div > .note {
+    font-family: inherit;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    margin: -15px 0 50px 0;
+    padding: 0 0 40px 0;
+    line-height: 1.5em;
+    color: #555555;
+    border-bottom: 1px solid #DDD;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.FeatureContent {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.FeatureContent > .RowContent {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.FeatureContent > .RowContent > .Content {
+    display: flex;
+    flex-flow: row;
+    width: 50%;
+}
+
+.FeatureContent > .RowContent > .Content > .PicContent {
+    width: 130px;
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.FeatureContent > .RowContent > .Content > .BodyContent {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.FeatureContent > .RowContent > .Content > .BodyContent > .HeadNoteContent {
+    margin-bottom: 17px;
+    font-weight: 600;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.FeatureContent > .RowContent > .Content > .BodyContent > .NoteContent {
+    margin-bottom: 12px;
+    line-height: 1.75;
+    color: #777;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+}
+
+.HeadSectionAbout {
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+.HeadSectionAbout > .OverAll-About {
+    border-top: 1px dashed #DDD;
+    margin-left: 8.33333333%;
+    margin-right: 8.33333333%;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+}
+
+.HeadSectionAbout > .OverAll-About > .HeadTextAbout {
+    font-style: normal;
+    font-family: inherit;
+    text-align: center;
+    color: #3D3D3D;
+    font-size: 2.1em;
+    line-height: 1.1em;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    margin-top: 30px;
+}
+
+.HeadSectionAbout > .OverAll-About > .TextAbout {
+    font-family: inherit;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 0 40px 0;
+    line-height: 1.5em;
+    color: #555555;
+    letter-spacing: -0.03em;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.SectionContentAbout > .OverAll-ContentAbout {
+    display: flex;
+    flex-flow: row;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: #ffffff;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.SectionContentAbout > .OverAll-ContentAbout > .BodyContentAbout {
+    width: 50%;
+}
+
+.SectionContentAbout > .OverAll-ContentAbout > .BodyContentAbout > .HeadAboutContent {
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: #EA2988;
+    line-height: 1.1em;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 20px 0 40px;
+    border: none;
+    letter-spacing: -0.03em;
+}
+
+.SectionContentAbout > .OverAll-ContentAbout > .BodyContentAbout > .TextAboutContent {
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #555555;
+    margin: 20px 0 0 0;
+    padding: 0 20px 0 40px;
+    border-right: 1px solid #DADADA;
+}
+
+.button {
+    display: block;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: #ffffff;
+    border: 1px solid #DADADA;
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', sans-serif;
+    color: #6E4DA7;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.linkSingup {
+    text-decoration:none;
+}
